@@ -23,7 +23,16 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
    ```bash
    pip install  -r requirements.txt
 
+## Models Used
+- **Isolation Forest**: Randomly isolates points by selecting a feature and a split value. Points that require fewer splits to isolate are considered anomalies.
 
-##DATASET:
+- **Local Outlier Factor (LOF)**: Determines the local density deviation of a given data point with respect to its neighbors. Points with significantly lower density than their neighbors are flagged as outliers.
+
+- **One-Class SVM**: Learns a boundary that separates the normal data points from potential outliers in the dataset.
+
+## Usage
+1. Preprocess the data using the provided functions in the Jupyter Notebook or Python script.
+2. Train the anomaly detection models on the transaction dataset.
+3. Test the models on new transaction data to predict and flag suspicious transactions.
 
 
