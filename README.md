@@ -11,7 +11,8 @@ This project aims to predict fraudulent credit card transactions using anomaly d
 - **One-Class SVM**: A support vector machine algorithm used for outlier detection in high-dimensional spaces.
 
 ## Dataset
-The project utilizes a dataset of credit card transactions. Each transaction is represented by various features (e.g., transaction amount, date, location, etc.), and the goal is to identify anomalous or suspicious transactions.
+The project utilizes a dataset of credit card transactions. Each transaction is represented by various features.
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ## Installation
 1. Clone the repository:
@@ -25,4 +26,4 @@ The project utilizes a dataset of credit card transactions. Each transaction is 
 
 ##DATASET:
 
-https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
