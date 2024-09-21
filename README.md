@@ -35,4 +35,14 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 2. Train the anomaly detection models on the transaction dataset.
 3. Test the models on new transaction data to predict and flag suspicious transactions.
 
+## Technologies Used
+- **Python**: Programming language for data manipulation and model implementation.
+- **Pandas**: For data processing and manipulation.
+- **Scikit-learn**: To implement machine learning algorithms.
+- **Matplotlib/Seaborn**: For data visualization and insights.
+- **Jupyter Notebook**: For interactive model development.
+
+## Conclusion
+This project demonstrates the application of anomaly detection methods to identify fraudulent transactions. These techniques can be integrated into real-time systems to monitor credit card transactions, helping to mitigate financial fraud.
+
 
